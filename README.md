@@ -1,7 +1,8 @@
+## 说明
+
 个人用的小程序，用于监听短信与来电，通过leancloud.cn SDK push 到 iPhone
 
-
-### 配置
+## 配置
 
 1、[Leancloud](https://leancloud.cn) 注册账号并添加应用，拿到 `AppId`, `AppKey`.
 
@@ -25,3 +26,8 @@ AVOSCloud.initialize(this, "AppId", "AppKey");
 4、Build App
 
 注：为了保证应用可以后台运行进行监听, 请对应加入所在系统的白名单并赋予一定的权限。
+
+## iOS 端
+
+[https://github.com/simman/ATi_iOS](https://github.com/simman/ATi_iOS)
+
